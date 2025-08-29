@@ -15,11 +15,29 @@ Algorithm:
  
 Program:
 
-//type your code here
+#include <stdio.h>
+struct numbers {
+    int a;
+    int b;
+};
+struct numbers add(struct numbers n) {
+    struct numbers result;
+    result.a = n.a + n.b;
+    return result;
+}
+int main() {
+    struct numbers n, sum;
+    scanf("%d %d", &n.a, &n.b);
+    sum = add(n);
+    printf("Sum = %d\n", sum.a);
+    return 0;
+}
+
 
 Output:
 
-//paste your output here
+<img width="525" height="592" alt="Screenshot 2025-08-28 153528" src="https://github.com/user-attachments/assets/b47f486d-ee76-4181-9e94-8cb2290a98cd" />
+
 
 
 Result:
